@@ -349,13 +349,15 @@ section------------------------ */
 .form_button {
     display: inline-block;
     width: 40%;
+    font-family: 'Nanum Gothic';
     font-size: 16px;
-    padding: 20px 20px;
-    margin-bottom: 10px;
-    border: 0.1px solid white;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #9b9b9b;
     color: white;
     letter-spacing: 4px;
-    font-weight: 600;
+    text-transform: capitalize;
+    font-weight: 800;
     background: none;
     border-radius: 5px;
     cursor: pointer;
@@ -363,8 +365,8 @@ section------------------------ */
 }
 
 .form_button:hover {
-    background: white;
-    color: blue;
+    background: #9b9b9b;
+    color: rgb(0, 0, 0);
 }
 
 /*------------------------ contact section------------------------ */
